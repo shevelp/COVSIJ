@@ -1,0 +1,206 @@
+{
+  "@context" : {
+    "hasTitle" : {
+      "@id" : "https://w3id.org/def/COV#hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasSequence" : {
+      "@id" : "https://w3id.org/def/COV#hasSequence",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "causedBy" : {
+      "@id" : "https://w3id.org/def/COV#causedBy",
+      "@type" : "@id"
+    },
+    "treatsDisorder" : {
+      "@id" : "https://w3id.org/def/COV#treatsDisorder",
+      "@type" : "@id"
+    },
+    "hasLicense" : {
+      "@id" : "https://w3id.org/def/COV#hasLicense",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Organism" : {
+      "@id" : "https://w3id.org/def/COV#Organism"
+    },
+    "mentions" : {
+      "@id" : "https://w3id.org/def/COV#mentions",
+      "@type" : "@id"
+    },
+    "hasResearchPhase" : {
+      "@id" : "https://w3id.org/def/COV#hasResearchPhase",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "hasIUPACName" : {
+      "@id" : "https://w3id.org/def/COV#hasIUPACName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasTypeOfPublication" : {
+      "@id" : "https://w3id.org/def/COV#hasTypeOfPublication",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasName" : {
+      "@id" : "https://w3id.org/def/COV#hasName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isTreatedWith" : {
+      "@id" : "https://w3id.org/def/COV#isTreatedWith",
+      "@type" : "@id"
+    },
+    "producedBy" : {
+      "@id" : "https://w3id.org/def/COV#producedBy",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "contains" : {
+      "@id" : "https://w3id.org/def/COV#contains",
+      "@type" : "@id"
+    },
+    "author" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#author"
+    },
+    "Paper" : {
+      "@id" : "https://w3id.org/def/COV#Paper"
+    },
+    "isMencioned" : {
+      "@id" : "https://w3id.org/def/COV#isMencioned",
+      "@type" : "@id"
+    },
+    "hasLatestDatabaseUpdate" : {
+      "@id" : "https://w3id.org/def/COV#hasLatestDatabaseUpdate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "Disease" : {
+      "@id" : "https://w3id.org/def/COV#Disease"
+    },
+    "hasNumberOfReferences" : {
+      "@id" : "https://w3id.org/def/COV#hasNumberOfReferences",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "Virus" : {
+      "@id" : "https://w3id.org/def/COV#Virus"
+    },
+    "Drug" : {
+      "@id" : "https://w3id.org/def/COV#Drug"
+    },
+    "Treatment" : {
+      "@id" : "https://w3id.org/def/COV#Treatment"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "produceDisorder" : {
+      "@id" : "https://w3id.org/def/COV#produceDisorder",
+      "@type" : "@id"
+    },
+    "hasNumberOfAuthors" : {
+      "@id" : "https://w3id.org/def/COV#hasNumberOfAuthors",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hasStatus" : {
+      "@id" : "https://w3id.org/def/COV#hasStatus",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasMass" : {
+      "@id" : "https://w3id.org/def/COV#hasMass",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hasLenght" : {
+      "@id" : "https://w3id.org/def/COV#hasLenght",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hasSite" : {
+      "@id" : "https://w3id.org/def/COV#hasSite",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Gene" : {
+      "@id" : "https://w3id.org/def/COV#Gene"
+    },
+    "Genome" : {
+      "@id" : "https://w3id.org/def/COV#Genome"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "hasCommonName" : {
+      "@id" : "https://w3id.org/def/COV#hasCommonName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasCategory" : {
+      "@id" : "https://w3id.org/def/COV#hasCategory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasFunction" : {
+      "@id" : "https://w3id.org/def/COV#hasFunction",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasMF" : {
+      "@id" : "https://w3id.org/def/COV#hasMF",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hasGene" : {
+      "@id" : "https://w3id.org/def/COV#hasGene",
+      "@type" : "@id"
+    },
+    "BibliographicResource" : {
+      "@id" : "http://purl.org/dc/terms/BibliographicResource"
+    },
+    "hasISOpoint" : {
+      "@id" : "https://w3id.org/def/COV#hasISOpoint",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAbstract" : {
+      "@id" : "https://w3id.org/def/COV#hasAbstract",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasLink" : {
+      "@id" : "https://w3id.org/def/COV#hasLink",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasGenome" : {
+      "@id" : "https://w3id.org/def/COV#hasGenome",
+      "@type" : "@id"
+    },
+    "Disorder" : {
+      "@id" : "https://w3id.org/def/COV#Disorder"
+    },
+    "Paragraph" : {
+      "@id" : "https://w3id.org/def/COV#Paragraph"
+    },
+    "hasMW" : {
+      "@id" : "https://w3id.org/def/COV#hasMW",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "hasLatestPublicationDate" : {
+      "@id" : "https://w3id.org/def/COV#hasLatestPublicationDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "hasRealeaseDate" : {
+      "@id" : "https://w3id.org/def/COV#hasRealeaseDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "hasProtein" : {
+      "@id" : "https://w3id.org/def/COV#hasProtein",
+      "@type" : "@id"
+    },
+    "Bacteria" : {
+      "@id" : "https://w3id.org/def/COV#Bacteria"
+    },
+    "transcribedTo" : {
+      "@id" : "https://w3id.org/def/COV#transcribedTo",
+      "@type" : "@id"
+    },
+    "produceProtein" : {
+      "@id" : "https://w3id.org/def/COV#produceProtein"
+    },
+    "Protein" : {
+      "@id" : "https://w3id.org/def/COV#Protein"
+    }
+  }
+}
