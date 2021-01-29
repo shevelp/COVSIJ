@@ -457,6 +457,7 @@
 
     <owl:Class rdf:about="https://w3id.org/def/COV#Bacteria">
         <rdfs:subClassOf rdf:resource="https://w3id.org/def/COV#Organism"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/def/COV#Virus"/>
         <rdfs:comment xml:lang="en">A microscopic single-celled organism, lacking a nucleus, that multiplies by simple cell division or by spores.</rdfs:comment>
         <rdfs:label xml:lang="en">Bacteria</rdfs:label>
     </owl:Class>
