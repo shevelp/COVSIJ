@@ -1,0 +1,18 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX up: <http://purl.uniprot.org/core/>
+
+SELECT distinct ?geneName ?proteinID ?function ?aminoacidSeq ?proteinMass
+WHERE
+{
+  	?protein a up:Protein .
+  	?protein up:encodedBy ?gene .
+  	?gene skos:prefLabel ?geneName .
+  	?protein up:sequence ?sequence .
+  	?sequence rdf:value ?aminoacidSeq .
+  	?sequence up:mass ?proteinMass .
+  	?protein up:classifiedWith ?goTerm .
+	?goTerm rdfs:label ?function .
+	?protein up:organism ?organism .
+	?organism up:scientificName "Severe acute respiratory syndrome coronavirus 2" .
+  	bind (substr(str(?protein),33) as ?proteinID) .
+}
