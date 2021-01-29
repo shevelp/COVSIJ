@@ -15673,7 +15673,7 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/def/COV#ORGSID1">
         <rdf:type rdf:resource="https://w3id.org/def/COV#Genome"/>
         <rdf:type rdf:resource="https://w3id.org/def/COV#Virus"/>
-        <COV:hasLink>https://github.com/shevelp/COVSJI/blob/main/genome.fasta</COV:hasLink>
+        <COV:hasLink>https://github.com/shevelp/COVSIJ/blob/main/genome.fasta</COV:hasLink>
         <COV:hasName>SARSCOV2</COV:hasName>
     </owl:NamedIndividual>
     
